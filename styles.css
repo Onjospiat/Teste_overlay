@@ -44,3 +44,30 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+/* Aula 18 */
+.overlay{
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  color:#eee;
+  top:0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+.fundo-img{
+  position: relative;
+}
+
+.overlay:hover{
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+#sec1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}

@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!--
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="/" aria-current="page">Home</a>
+  </nav>
+  <main>
+    <h1>Home page</h1>
+    <div id="sec1">
+      <div class="img_container">
+        <h3>Feita com IA</h3>
+        <div class="fundo-img">
+          <img src="IMG/beer.png" height="400px" onmouseover="func_overlay(this,0)">
+          <div class="overlay">
+            <p>Porra, essa merda tem que funcionar</p>
+          </div>
+        </div>
+      </div>
+      <div class="img_container">
+      <h3>Humano real</h3>
+      <div class="fundo-img">
+        <img src="IMG/Imagem do WhatsApp de 2025-03-09 à(s) 16.07.01_24f4f31c.jpg" height="200px" onmouseover="func_overlay(this,1)">
+        <div class="overlay">
+          <p>Bonitão</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+
 </html>
